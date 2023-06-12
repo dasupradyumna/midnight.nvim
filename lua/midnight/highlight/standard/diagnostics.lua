@@ -1,6 +1,6 @@
 -------------------------------------- DIAGNOSTICS HIGHLIGHTS --------------------------------------
 
-local c = require('midnight.palette').components
+local c = require('midnight.colors').components
 
 return {
   DiagnosticError = { fg = c.error, style = 'italic' },

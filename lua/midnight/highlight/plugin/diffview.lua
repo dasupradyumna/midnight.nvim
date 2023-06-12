@@ -1,6 +1,6 @@
 ------------------------------------- DIFFVIEW.NVIM HIGHLIGHTS -------------------------------------
 
-local p = require('midnight.palette').palette
+local p = require('midnight.colors').palette
 
 return {
   DiffviewDim1 = { fg = p.gray[5] },

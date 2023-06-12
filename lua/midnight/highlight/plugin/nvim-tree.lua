@@ -1,6 +1,6 @@
 ------------------------------------- NVIM-TREE.LUA HIGHLIGHTS -------------------------------------
 
-local p = require('midnight.palette').palette
+local p = require('midnight.colors').palette
 
 return {
   NvimTreeRootFolder = { fg = p.purple[2], style = 'bold' },

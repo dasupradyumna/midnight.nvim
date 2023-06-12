@@ -1,7 +1,7 @@
 ----------------------------------------- NEORG HIGHLIGHTS -----------------------------------------
 
-local p = require('midnight.palette').palette
-local c = require('midnight.palette').components
+local p = require('midnight.colors').palette
+local c = require('midnight.colors').components
 
 return {
   ['@neorg.anchors.declaration.norg'] = { fg = c.parameter, style = 'bold,underline' },

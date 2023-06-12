@@ -1,7 +1,7 @@
 -------------------------------------- NVIM-DAP-UI HIGHLIGHTS --------------------------------------
 
-local p = require('midnight.palette').palette
-local c = require('midnight.palette').components
+local p = require('midnight.colors').palette
+local c = require('midnight.colors').components
 
 return {
   DapUINormal = { link = 'Normal' },
@@ -14,10 +14,14 @@ return {
   DapUIValue = { link = 'Parameter' },
   DapUIModifiedValue = { fg = c.string, bg = p.cyan[5] },
   DapUIWatchesEmpty = { fg = c.error },
+  DapUIWatchesError = { fg = c.error },
   DapUIWatchesValue = { link = 'DapUICustomFG' },
   DapUIStoppedThread = { link = 'DapUICustomFG' },
   DapUIFrameName = { link = 'Function' },
+  DapUICurrentFrameName = { fg = c.method, style = 'bold,italic' },
   DapUISource = { link = 'Identifier' },
   DapUIBreakpointsPath = { link = 'DapUICustomFG' },
   DapUIBreakpointsInfo = { link = 'Type' },
+  DapUIBreakpointsLine = { link = 'Operator' },
+  DapUIBreakpointsCurrentLine = { fg = c.operator, style = 'bold,italic' },
 }

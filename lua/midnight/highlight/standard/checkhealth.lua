@@ -1,6 +1,6 @@
 -------------------------------------- CHECKHEALTH HIGHLIGHTS --------------------------------------
 
-local c = require('midnight.palette').components
+local c = require('midnight.colors').components
 
 return {
   healthError = { fg = c.error, style = 'bold' },

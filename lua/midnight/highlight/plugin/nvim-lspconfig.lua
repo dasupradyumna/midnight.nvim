@@ -1,6 +1,6 @@
 ------------------------------------ NVIM-LSPCONFIG HIGHLIGHTS -------------------------------------
 
-local p = require('midnight.palette').palette
+local p = require('midnight.colors').palette
 
 return {
   LspInfoList = { fg = p.blue[3] },

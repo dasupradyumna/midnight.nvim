@@ -1,6 +1,6 @@
 ---------------------------------- TODO-COMMENTS.NVIM HIGHLIGHTS -----------------------------------
 
-local c = require('midnight.palette').components
+local c = require('midnight.colors').components
 
 return {
   TodoBgFix = { fg = c.bg, bg = c.error, style = 'bold' },

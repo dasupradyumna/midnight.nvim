@@ -1,6 +1,6 @@
 ----------------------------------------- HELP HIGHLIGHTS ------------------------------------------
 
-local c = require('midnight.palette').components
+local c = require('midnight.colors').components
 
 return {
   helpCommand = { fg = c.help_command },

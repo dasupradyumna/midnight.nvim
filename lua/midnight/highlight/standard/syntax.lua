@@ -1,6 +1,6 @@
 ---------------------------------------- SYNTAX HIGHLIGHTS -----------------------------------------
 
-local c = require('midnight.palette').components
+local c = require('midnight.colors').components
 
 return {
   Comment = { fg = c.comment, style = 'italic' },

@@ -1,7 +1,7 @@
 -------------------------------------- MASON.NVIM HIGHLIGHTS ---------------------------------------
 
-local p = require('midnight.palette').palette
-local c = require('midnight.palette').components
+local p = require('midnight.colors').palette
+local c = require('midnight.colors').components
 
 return {
   MasonHeader = { fg = c.bg, bg = p.cyan[3], style = 'bold' },

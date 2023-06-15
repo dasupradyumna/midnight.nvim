@@ -5,11 +5,12 @@ on maintaining a comfortable level of color contrast for a pleasant visual exper
 
 ## Showcase
 
-![Sample 1](showcase/sample1.png "Sample 1")
+![Main 1](showcase/main1.png "main_1")
 
----
+![Main 2](showcase/main2.png "main_2")
 
-![Sample 2](showcase/sample2.png "Sample 2")
+More screenshots can be found in the [showcase](showcase) folder, if you want to know what you'll be
+getting from this theme.
 
 ## Vision
 
@@ -38,7 +39,7 @@ appearance will not change as a whole.***
 - Darker shades of gray for non-critical UI elements such as separators to reduce distraction
 - Consistent usage of the palette across plugins and neovim builtins to provide a unified IDE-like
 appearance
-- Warmer colors for multiple language syntax groups to attract attention intuitively in dense code
+- Warmer colors for language syntax groups to attract attention intuitively in dense code
 files
 
 #### Integrations
@@ -67,6 +68,7 @@ Install the colorscheme using the package manager that you love!
 -- LazySpec (plugin specification)
 -- return {
 { 'dasupradyumna/midnight.nvim', lazy = false, priority = 1000 }
+-- `lazy` and `priority` are only needed if this is your primary colorscheme to load it first
 -- }
 ```
 
@@ -146,7 +148,7 @@ local c = colors.components -- component color palette
 
 ## Contributing
 
-I encourage fellow contributors to submit PRs if they wish to fix a bug or add a feature.  
+I encourage fellow contributors to submit PRs if they wish to fix a bug or add a plugin.  
 Since I cannot feasibly test out every single possibility, I would love it if contributors can help
 in improving the documentation especially for other package managers.  
 I would also like help with LSP and treesitter groups for languages that have not been covered.

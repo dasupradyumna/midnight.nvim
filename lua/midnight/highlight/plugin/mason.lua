@@ -13,6 +13,6 @@ return {
   MasonHighlightBlockBold = { link = 'MasonHeader' },
   MasonHighlightBlockBoldSecondary = { link = 'MasonHeader' },
   MasonMuted = { fg = c.comment },
-  MasonMutedBlock = { bg = c.bg },
-  MasonMutedBlockBold = { bg = c.bg, style = 'bold' },
+  MasonMutedBlock = { fg = c.fg },
+  MasonMutedBlockBold = { fg = c.fg, style = 'bold' },
 }

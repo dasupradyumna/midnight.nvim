@@ -22,4 +22,5 @@ return {
   DiffviewFilePanelDeletions = { link = 'GitDeleted' },
   DiffviewFilePanelConflicts = { link = 'GitMerge' },
   DiffviewFolderSign = { link = 'NvimTreeFolderIcon' },
+  DiffviewDiffDelete = { link = 'Comment' },
 }

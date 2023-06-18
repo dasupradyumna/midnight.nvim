@@ -12,7 +12,7 @@ return {
   DapUILineNumber = { link = 'Operator' },
   DapUIVariable = { link = 'Identifier' },
   DapUIValue = { link = 'Parameter' },
-  DapUIModifiedValue = { fg = c.string, bg = p.cyan[5] },
+  DapUIModifiedValue = { fg = c.string, bg = c.visual },
   DapUIWatchesEmpty = { fg = c.error },
   DapUIWatchesError = { fg = c.error },
   DapUIWatchesValue = { link = 'DapUICustomFG' },

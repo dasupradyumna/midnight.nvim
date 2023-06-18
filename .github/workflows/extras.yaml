@@ -1,0 +1,30 @@
+# Update all extras if a push event modifies any of the templates
+
+name: Extra Themes
+on:
+  push:
+    paths:
+      - 'lua/midnight/extras/*.lua'
+
+jobs:
+  update:
+    name: Update Extras
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setup NeoVim
+        uses: MunifTanjim/setup-neovim-action@v1
+        with:
+          tag: nightly
+
+      - name: Run Update Script
+        run: |
+          nvim --version
+          nvim --headless --clean -u etc/extras.lua
+
+      - name: Push Changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: 'chore(extras): update extra files'

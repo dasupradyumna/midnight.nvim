@@ -66,7 +66,7 @@ return {
   ['@neorg.markup.spoiler.norg'] = { fg = c.comment },
   ['@neorg.markup.strikethrough.norg'] = { link = 'Strikethrough' },
   ['@neorg.markup.inline_comment.norg'] = { link = 'Comment' },
-  ['@neorg.markup.verbatim.norg'] = { fg = c.operator, bg = p.gray[10] },
+  ['@neorg.markup.verbatim.norg'] = { fg = c.operator, bg = p.gray[8] },
 
   ['@neorg.quotes.1.prefix'] = { fg = c.comment },
   ['@neorg.quotes.2.prefix'] = { link = '@neorg.quotes.1.prefix' },
@@ -81,7 +81,7 @@ return {
   ['@neorg.quotes.5.content.norg'] = { link = '@neorg.quotes.1.content.norg' },
   ['@neorg.quotes.6.content.norg'] = { link = '@neorg.quotes.1.content.norg' },
 
-  ['@neorg.tags.ranged_verbatim.code_block'] = { bg = p.gray[10] },
+  ['@neorg.tags.ranged_verbatim.code_block'] = { bg = p.gray[8] },
   ['@neorg.tags.ranged_verbatim.document_meta.categories.norg_meta'] = { link = 'Operator' },
   ['@neorg.tags.ranged_verbatim.document_meta.description.norg_meta'] = { fg = p.gray[4] },
   ['@neorg.tags.ranged_verbatim.document_meta.string.norg_meta'] = { link = 'String' },

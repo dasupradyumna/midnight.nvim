@@ -1,0 +1,21 @@
+# Check if the repository respects StyLua rules from stylua.toml
+
+name: Formatting
+on:
+  pull_request:
+    paths:
+      - '**.lua'
+
+jobs:
+  check:
+    name: StyLua Check
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: JohnnyMorganz/stylua-action@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          version: latest
+          args: --check --config-path=stylua.toml .

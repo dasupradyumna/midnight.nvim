@@ -1,6 +1,7 @@
 ------------------------------------- NVIM-TREE.LUA HIGHLIGHTS -------------------------------------
 
 local p = require('midnight.colors').palette
+local c = require('midnight.colors').components
 
 return {
   NvimTreeRootFolder = { fg = p.purple[2], style = 'bold' },
@@ -21,5 +22,5 @@ return {
   NvimTreeSymlink = { fg = p.purple[4], style = 'italic' },
   NvimTreeLiveFilterValue = { link = 'Bold' },
   NvimTreeLiveFilterPrefix = { fg = p.cyan[2], style = 'bold' },
-  NvimTreeWindowPicker = { fg = p.blue[1], bg = p.cyan[5], style = 'bold' },
+  NvimTreeWindowPicker = { fg = p.blue[1], bg = c.visual, style = 'bold' },
 }

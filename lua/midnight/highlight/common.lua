@@ -9,9 +9,7 @@ return {
   Underlined = { style = 'underline' },
   Strikethrough = { style = 'strikethrough' },
 
-  Border = { fg = p.gray[8] },
-  Select = { bg = p.cyan[5] },
-
+  Border = { fg = c.border },
   GitNew = { fg = p.green[4] },
   GitDirty = { fg = p.yellow[2] },
   GitRenamed = { fg = p.orange[2] },

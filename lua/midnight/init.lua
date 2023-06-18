@@ -1,19 +1,18 @@
 ----------------------------------------- MIDNIGHT MODULE ------------------------------------------
 
+local config = require 'midnight.config'
+
 local M = {}
 
----@type table<HLGroup, HLAttributes>[]? list of set of highlight groups
-local hl_groups
-
 function M.load()
-  if not hl_groups then M.setup() end
+  if not config.loaded then M.setup() end
 
   if vim.g.colors_name then vim.cmd.highlight 'clear' end
   if vim.fn.exists 'syntax_on' then vim.cmd.syntax 'reset' end
 
   vim.o.termguicolors = true
   vim.g.colors_name = 'midnight'
-  for _, groups in ipairs(hl_groups) do ---@diagnostic disable-line: param-type-mismatch
+  for _, groups in ipairs(config.highlights) do
     for hi_name, highlight in pairs(groups) do
       if highlight.clear then
         vim.cmd(('highlight clear %s'):format(hi_name))
@@ -33,8 +32,8 @@ end
 ---setup method that takes override highlight groups
 ---@param opts table<HLGroup, HLAttributes>? set of override highlight groups
 function M.setup(opts)
-  hl_groups = require 'midnight.highlight'
-  table.insert(hl_groups, opts or {})
+  config.load_highlights()
+  table.insert(config.highlights, opts)
 end
 
 return M

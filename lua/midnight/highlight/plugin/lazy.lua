@@ -16,7 +16,7 @@ return {
   LazyCommitIssue = { fg = p.magenta[1] },
   LazyComment = { fg = c.comment },
   LazyButton = { bg = c.bg },
-  LazyButtonActive = { link = 'Select' },
+  LazyButtonActive = { bg = c.visual },
   LazyReasonPlugin = { link = 'LazySpecial' },
   LazyReasonSource = { link = 'String' },
   LazyReasonImport = { link = 'LazyReasonSource' },

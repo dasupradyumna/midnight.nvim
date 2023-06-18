@@ -7,7 +7,7 @@ return {
   DiffviewReference = { fg = p.cyan[1], style = 'italic' },
   DiffviewPrimary = { fg = p.cyan[1] },
   DiffviewSecondary = { fg = p.teal[2] },
-  DiffviewNonText = { link = 'Border' },
+  DiffviewNonText = { link = 'DiffviewDim1' },
   DiffviewStatusUnmerged = { link = 'GitMerge' },
   DiffviewStatusUntracked = { link = 'GitNew' },
   DiffviewStatusModified = { link = 'GitDirty' },

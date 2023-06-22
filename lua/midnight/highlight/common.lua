@@ -16,5 +16,5 @@ return {
   GitDeleted = { fg = p.red[3] },
   GitIgnored = { fg = c.comment },
   GitStaged = { fg = p.green[1] },
-  GitMerge = { fg = p.teal[3] }, -- TEST: during a merge
+  GitMerge = { fg = p.teal[3] },
 }

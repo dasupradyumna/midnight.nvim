@@ -103,4 +103,16 @@ local components = {
   default = palette.cyan[2],
 }
 
-return { components = components, palette = palette }
+-- terminal palette; each color { dark, light } variants
+local terminal = {
+  black = { palette.gray[8], palette.gray[5] },
+  red = { components.error, components.operator },
+  green = { palette.green[4], components.field },
+  yellow = { components.method, palette.yellow[1] },
+  blue = { components.constant, palette.blue[3] },
+  purple = { components.keyword, components.namespace },
+  cyan = { components.parameter, components.variable },
+  white = { components.fg, palette.gray[1] },
+}
+
+return { components = components, palette = palette, terminal = terminal }

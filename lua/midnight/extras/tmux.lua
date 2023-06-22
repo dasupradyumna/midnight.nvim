@@ -1,18 +1,14 @@
 --------------------------------------- TMUX EXTRA TEMPLATE ----------------------------------------
 
 return [[
-########################################## MIDNIGHT THEME ##########################################
-# TMUX port for midnight.nvim theme
-# Author: Dasu Pradyumna (dasupradyumna@gmail.com)
-
 set-window-option -g mode-style bg='${c.visual}'
 set-option -g message-style fg='${c.operator}',bg='${c.bg}',NONE
 set-option -g message-command-style fg='${c.bg}',bg='${c.operator}',NONE
 
 ############################### statusline style ###############################
 
-set-option -g status 'on'
-set-option -g status-justify 'left'
+set-option -g status on
+set-option -g status-justify left
 set-option -g status-position top
 set-option -g status-style fg='${c.comment}',bg='${c.bg}',NONE
 
@@ -31,7 +27,8 @@ set-window-option -g window-style fg='${c.fg}',bg='${c.bg}',NONE
 
 set-window-option -g window-status-current-style fg='${c.bg}',bg='${c.tabsel}',bold
 set-window-option -g window-status-current-format '◣ #W#{?window_zoomed_flag,*,} ◥'
-set-window-option -g window-status-format ' #{?window_last_flag,(#W), #W } '
+set-window-option -g window-status-format \
+  ' #{?window_last_flag,(#W#{?window_zoomed_flag,*,}), #W#{?window_zoomed_flag,*,} } '
 
 set-window-option -g window-status-separator ''
 

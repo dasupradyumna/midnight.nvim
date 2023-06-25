@@ -78,7 +78,6 @@ local components = {
   tabsel = '#697077',
   tags = '#e07980',
   title = '#5579f0',
-  help_command = '#b49be0',
 
   -- syntax
   comment = '#878d96',

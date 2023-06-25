@@ -12,6 +12,7 @@ local colors = {
 -- dictionary holding the metadata for all the extras
 local extras = {
   ['gnome-terminal'] = { ext = 'sh', name = 'GNOME Terminal' },
+  kitty = { ext = 'conf', name = 'Kitty' },
   tmux = { ext = 'tmux', name = 'TMUX' },
 }
 

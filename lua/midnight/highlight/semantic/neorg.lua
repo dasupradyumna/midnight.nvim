@@ -32,8 +32,8 @@ return {
   ['@neorg.headings.5.title.norg'] = { link = '@neorg.headings.5.prefix' },
   ['@neorg.headings.6.title.norg'] = { link = '@neorg.headings.6.prefix' },
 
-  NeorgLinkComponent = { fg = c.help_command, style = 'bold,italic' },
-  NeorgLinkURL = { fg = c.help_command, style = 'italic,underline' },
+  NeorgLinkComponent = { fg = p.purple[2], style = 'bold,italic' },
+  NeorgLinkURL = { fg = p.purple[2], style = 'italic,underline' },
   ['@neorg.links.description.norg'] = { link = 'NeorgLinkURL' },
   ['@neorg.links.location.definition.norg'] = { link = 'NeorgLinkComponent' },
   ['@neorg.links.location.definition.prefix.norg'] = { link = 'NeorgLinkComponent' },

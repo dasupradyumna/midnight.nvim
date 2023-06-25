@@ -1,9 +1,10 @@
 ----------------------------------------- HELP HIGHLIGHTS ------------------------------------------
 
+local p = require('midnight.colors').palette
 local c = require('midnight.colors').components
 
 return {
-  helpCommand = { fg = c.help_command },
+  helpCommand = { fg = p.purple[2] },
   helpSpecial = { link = 'Parameter' },
   helpHeader = { fg = c.title },
   helpSectionDelim = { link = 'helpHeader' },

@@ -30,4 +30,5 @@ return {
   require 'midnight.highlight.plugin.mason',
   require 'midnight.highlight.plugin.nvim-dap-ui',
   require 'midnight.highlight.plugin.nvim-cmp',
+  require 'midnight.highlight.plugin.vim-illuminate',
 }

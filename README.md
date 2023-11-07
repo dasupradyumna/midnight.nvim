@@ -164,3 +164,9 @@ was inspired by **folke**'s [tokyonight.nvim](https://github.com/folke/tokyonigh
 ## License
 
 **midnight.nvim** is licensed under the *Apache License 2.0*.
+
+### More plugins by Author
+
+[launch.nvim](https://github.com/dasupradyumna/launch.nvim) :rocket:
+A task launcher plugin allowing dynamic task configuration for every working directory *(with
+optional support for debugging via **nvim-dap**)*

@@ -46,17 +46,19 @@ files
 
 The following plugins have fully customized highlight groups -
 
-- [lazy.nvim](https://github.com/folke/lazy.nvim)
-- [nvim-tree.lua](https://github.com/nvim-tree/nvim-tree.lua)
-- [gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim)
 - [diffview.nvim](https://github.com/sindrets/diffview.nvim)
-- [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
-- [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)
-- [todo-comments.nvim](https://github.com/folke/todo-comments.nvim)
+- [gitsigns.nvim](https://github.com/lewis6991/gitsigns.nvim)
+- [lazy.nvim](https://github.com/folke/lazy.nvim)
 - [mason.nvim](https://github.com/williamboman/mason.nvim)
-- [nvim-dap-ui](https://github.com/rcarriga/nvim-dap-ui)
-- [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
 - [neorg](https://github.com/nvim-neorg/neorg)
+- [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)
+- [nvim-dap-ui](https://github.com/rcarriga/nvim-dap-ui)
+- [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)
+- [nvim-notify](https://github.com/rcarriga/nvim-notify)
+- [nvim-tree.lua](https://github.com/nvim-tree/nvim-tree.lua)
+- [telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
+- [todo-comments.nvim](https://github.com/folke/todo-comments.nvim)
+- [vim-illuminate](https://github.com/RRethy/vim-illuminate)
 
 ## Installation
 

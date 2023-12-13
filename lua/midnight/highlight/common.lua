@@ -17,4 +17,6 @@ return {
   GitIgnored = { fg = c.comment },
   GitStaged = { fg = p.green[1] },
   GitMerge = { fg = p.teal[3] },
+
+  FloatBorder = { link = 'Border' },
 }

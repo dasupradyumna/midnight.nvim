@@ -1,4 +1,4 @@
-----------------------------------------------------------------------------------------------------
+------------------------------------ NEOVIM BUILTIN HIGHLIGHTS -------------------------------------
 
 local p = require('midnight.colors').palette
 local c = require('midnight.colors').components
@@ -24,6 +24,7 @@ return {
   LineNr = { fg = p.gray[5] },
   CursorLineNr = { fg = p.gray[1] },
   MatchParen = { bg = p.cyan[4] },
+  ModeMsg = { link = 'Normal' },
   MoreMsg = { fg = p.blue[3] },
   NonText = { fg = c.bg },
   Normal = { fg = c.fg, bg = c.bg },
@@ -35,13 +36,11 @@ return {
   Question = { link = 'MoreMsg' },
   QuickFixLine = { link = 'Bold' },
   Search = { bg = p.orange[3] },
-  -->START> CHECK: where are these highlight groups used?
-  SpecialKey = { clear = true },
-  SpellBad = { clear = true },
-  SpellCap = { clear = true },
-  SpellLocal = { clear = true },
-  SpellRare = { clear = true },
-  --<END<
+  SpecialKey = { link = 'Whitespace' },
+  SpellBad = { fg = c.error, style = 'italic,underline' },
+  SpellCap = { fg = c.warn, style = 'italic,underline' },
+  SpellLocal = { fg = c.info, style = 'italic,underline' },
+  SpellRare = { fg = c.hint, style = 'italic,underline' },
   StatusLine = { fg = c.comment, bg = c.bg },
   StatusLineNC = { clear = true },
   TabLine = { link = 'StatusLine' },

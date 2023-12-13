@@ -33,6 +33,6 @@ return {
   CmpItemKindText = { fg = c.comment },
   CmpItemKindTypeParameter = { fg = c.parameter },
   CmpItemKindUnit = { fg = p.red[3] }, --------------
-  CmpItemKindValue = { fg = p.red[3] }, --------------
+  CmpItemKindValue = { fg = c.parameter },
   CmpItemKindVariable = { fg = c.variable },
 }

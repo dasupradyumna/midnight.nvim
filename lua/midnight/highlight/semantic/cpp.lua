@@ -1,6 +1,7 @@
 ------------------------------------------ CPP HIGHLIGHTS ------------------------------------------
 
 return {
+  ['@attribute.cpp'] = { link = 'Operator' },
   ['@character.cpp'] = { link = 'String' },
   ['@constant.builtin.cpp'] = { link = 'Constant' },
   ['@define.cpp'] = { link = 'Operator' },
@@ -10,7 +11,7 @@ return {
   ['@namespace.cpp'] = { link = 'Namespace' },
   ['@parameter.cpp'] = { link = 'Parameter' },
   ['@property.cpp'] = { link = 'Field' },
-  ['@preproc.cpp'] = { link = 'Operator' },
+  ['@preproc.cpp'] = { link = 'Include' },
   ['@repeat.cpp'] = { link = 'Keyword' },
   ['@string.escape.cpp'] = { link = 'Operator' },
   ['@storageclass.cpp'] = { link = 'Operator' },

@@ -8,6 +8,7 @@ return {
   ['@field.cpp'] = { link = 'Field' },
   ['@function.builtin.cpp'] = { link = 'Operator' },
   ['@include.cpp'] = { link = 'Include' },
+  ['@keyword.directive.cpp'] = { link = 'Operator' },
   ['@namespace.cpp'] = { link = 'Namespace' },
   ['@parameter.cpp'] = { link = 'Parameter' },
   ['@property.cpp'] = { link = 'Field' },

@@ -6,6 +6,7 @@ local c = require('midnight.colors').components
 return {
   ColorColumn = { bg = p.black },
   Conceal = { fg = c.fg },
+  CurSearch = { link = 'Search' },
   CursorColumn = { link = 'ColorColumn' },
   CursorLine = { link = 'ColorColumn' },
   Directory = { fg = p.blue[4] },

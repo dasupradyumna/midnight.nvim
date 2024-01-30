@@ -5,4 +5,5 @@ return {
   ['@function.macro.vim'] = { link = 'Operator' },
   ['@label.vim'] = { link = 'Keyword' },
   ['@namespace.vim'] = { link = 'Field' },
+  ['@variable.builtin.vim'] = { link = 'Parameter' },
 }

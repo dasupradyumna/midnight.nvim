@@ -13,4 +13,7 @@ return {
   ['@lsp.type.macro.lua'] = { link = 'Type' },
   ['@lsp.type.parameter.lua'] = { link = 'Field' },
   ['@lsp.type.property.lua'] = { link = 'Parameter' },
+
+  ['@variable.parameter.lua'] = { link = 'Field' },
+  ['@variable.member.lua'] = { link = 'Parameter' },
 }

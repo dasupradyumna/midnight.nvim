@@ -10,6 +10,6 @@ return {
   ['@repeat.python'] = { link = 'Keyword' },
   ['@string.documentation.python'] = { link = 'Comment' },
   ['@string.escape.python'] = { link = 'Operator' },
+  ['@type.builtin'] = { link = 'Type' },
   ['@variable.builtin.python'] = { link = 'Keyword' },
-  -- TODO: add lsp tokens when server supports it
 }

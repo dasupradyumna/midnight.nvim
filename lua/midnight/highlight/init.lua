@@ -1,8 +1,9 @@
-----------------------------------------------------------------------------------------------------
+---------------------------------------- HIGHLIGHTS MODULE -----------------------------------------
 
 return {
   require 'midnight.highlight.common',
   require 'midnight.highlight.builtin',
+  require 'midnight.highlight.treesitter',
   -- standard
   require 'midnight.highlight.standard.syntax',
   require 'midnight.highlight.standard.diagnostics',
@@ -11,10 +12,10 @@ return {
   require 'midnight.highlight.standard.git',
   require 'midnight.highlight.standard.diff',
   -- semantic
-  require 'midnight.highlight.semantic.misc',
   require 'midnight.highlight.semantic.cmake',
   require 'midnight.highlight.semantic.cpp',
   require 'midnight.highlight.semantic.lua',
+  require 'midnight.highlight.semantic.markdown',
   require 'midnight.highlight.semantic.neorg',
   require 'midnight.highlight.semantic.python',
   require 'midnight.highlight.semantic.rust',

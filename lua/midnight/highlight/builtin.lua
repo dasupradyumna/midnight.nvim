@@ -23,6 +23,7 @@ return {
   IncSearch = { fg = c.bg, bg = p.orange[1] },
   Substitute = { fg = c.bg, bg = p.red[1] },
   LineNr = { fg = p.gray[5] },
+  LspInlayHint = { fg = c.hint },
   CursorLineNr = { fg = p.gray[1] },
   MatchParen = { bg = p.cyan[4] },
   ModeMsg = { link = 'Normal' },
